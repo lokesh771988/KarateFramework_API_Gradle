@@ -1,0 +1,13 @@
+<testsuite failures="1" name="com/demo/features/DataDrivenFeature.feature" skipped="0" tests="1" time="2.986875">
+  <testcase classname="com.demo.features.DataDrivenFeature" name="convert array of primitives into array of objects" time="2.986875">
+    <failure message="DataDrivenFeature.feature:10 - path: $[*].name[*], actual: [&quot;Harinarayan Sinha&quot;], expected: 108, reason: actual value does not contain expected">* table cats .............................................................. passed
+* def result = call read('getUserDetails.feature') cats ................... passed
+* def created = $result[*].response ....................................... passed
+* match created[*].id contains [108] ...................................... passed
+* match created[*].name contains [108] .................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: DataDrivenFeature.feature:10 - path: $[*].name[*], actual: ["Harinarayan Sinha"], expected: 108, reason: actual value does not contain expected&#13;
+	at ✽.* match created[*].name contains [108] (DataDrivenFeature.feature:10)</failure>
+  </testcase>
+</testsuite>

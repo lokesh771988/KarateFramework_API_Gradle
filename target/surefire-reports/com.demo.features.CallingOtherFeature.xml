@@ -1,0 +1,24 @@
+<testsuite failures="0" name="com/demo/features/CallingOtherFeature.feature" skipped="0" tests="2" time="6.265779">
+  <testcase classname="com.demo.features.CallingOtherFeature" name="get users and then get the first user by id" time="3.159539">
+    <system-out>* url baseURl ............................................................. passed
+* def userDetails = callonce read('classpath:com/demo/features/createUser.feature') . passed
+Given path mainURl,userDetails.userID ..................................... passed
+* header Authorization = 'Bearer '+authToken .............................. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed</system-out>
+  </testcase>
+  <testcase classname="com.demo.features.CallingOtherFeature" name="get users and then get the first user by id" time="3.10624">
+    <system-out>* url baseURl ............................................................. passed
+* def userDetails = callonce read('classpath:com/demo/features/createUser.feature') . passed
+Given path mainURl,userDetails.userID ..................................... passed
+* header Authorization = 'Bearer '+authToken .............................. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+* url baseURl ............................................................. passed
+* def userDetails = callonce read('classpath:com/demo/features/createUser.feature') . passed
+Given path mainURl,userDetails.userID ..................................... passed
+* header Authorization = 'Bearer '+authToken .............................. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed</system-out>
+  </testcase>
+</testsuite>

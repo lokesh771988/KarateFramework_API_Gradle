@@ -1,0 +1,10 @@
+<testsuite failures="0" name="com/demo/features/deleteUser.feature" skipped="0" tests="1" time="3.055959">
+  <testcase classname="com.demo.features.deleteUser" name="get all users and then get the first user by id" time="3.055959">
+    <system-out>* url baseURl ............................................................. passed
+Given path mainURl+'/7' ................................................... passed
+* header Authorization = 'Bearer 7232803c821bc49a0bd5c56d7df39c5289168e323fb17c5b6b1597d8941e33ef' . passed
+When method delete ........................................................ passed
+Then status 404 ........................................................... passed
+And match response.message == 'Resource not found' ........................ passed</system-out>
+  </testcase>
+</testsuite>

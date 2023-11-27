@@ -1,0 +1,7 @@
+<testsuite failures="0" name="com/demo/features/commanFuncation.feature" skipped="0" tests="1" time="0.095197">
+  <testcase classname="com.demo.features.commanFuncation" name="Comman Funcation testing write" time="0.095197">
+    <system-out>* def getDate = ........................................................... passed
+* def temp = getDate() .................................................... passed
+* print temp .............................................................. passed</system-out>
+  </testcase>
+</testsuite>

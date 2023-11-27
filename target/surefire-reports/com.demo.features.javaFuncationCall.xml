@@ -1,0 +1,8 @@
+<testsuite failures="0" name="com/demo/features/javaFuncationCall.feature" skipped="0" tests="1" time="0.161206">
+  <testcase classname="com.demo.features.javaFuncationCall" name="1" time="0.161206">
+    <system-out>* def adder = function(a, b){ return a + b } .............................. passed
+* assert adder(1, 2) == 3 ................................................. passed
+* def greeter = function(title, name) { return 'hello ' + title + ' ' + name } . passed
+* assert greeter('Mr.', 'Bob') == 'hello Mr. Bob' ......................... passed</system-out>
+  </testcase>
+</testsuite>

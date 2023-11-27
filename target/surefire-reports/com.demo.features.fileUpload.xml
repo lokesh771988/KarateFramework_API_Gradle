@@ -1,0 +1,13 @@
+<testsuite failures="0" name="com/demo/features/fileUpload.feature" skipped="0" tests="1" time="0.190935">
+  <testcase classname="com.demo.features.fileUpload" name="upload Files like word excel PDF and Image Files" time="0.190935">
+    <system-out>* url fileBaseUrl ......................................................... passed
+* def jsonFiles = Java.type('com.demo.utill.UntillMethods') ............... passed
+* def image = read(jsonFiles.getFile('apache-tomcat.jpg')) ................ passed
+* def pdf = read(jsonFiles.getFile('Email Outbound Design Notes.pdf')) .... passed
+Given path fileEndUrl ..................................................... passed
+And multipart field image = read('Testing.xlsx') .......................... passed
+And header Content-Type = 'multipart/related' ............................. passed
+When method post .......................................................... passed
+Then status 200 ........................................................... passed</system-out>
+  </testcase>
+</testsuite>

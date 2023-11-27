@@ -1,0 +1,17 @@
+<testsuite failures="1" name="com/demo/features/getUserDetails.feature" skipped="0" tests="1" time="0.016237">
+  <testcase classname="com.demo.features.getUserDetails" name="get all users and then get the first user by id" time="0.016237">
+    <failure message="getUserDetails.feature:8 - evaluation (js) failed: id, javax.script.ScriptException: ReferenceError: &quot;id&quot; is not defined in &lt;eval&gt; at line number 1&#10;stack trace: jdk.nashorn.api.scripting.NashornScriptEngine.throwAsScriptException(NashornScriptEngine.java:470)">* url baseURl ............................................................. passed
+* print "My ID ::: "+id ................................................... passed
+* def myId = id ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: getUserDetails.feature:8 - evaluation (js) failed: id, javax.script.ScriptException: ReferenceError: "id" is not defined in &lt;eval&gt; at line number 1
+stack trace: jdk.nashorn.api.scripting.NashornScriptEngine.throwAsScriptException(NashornScriptEngine.java:470)&#13;
+	at ✽.* def myId = id (getUserDetails.feature:8)&#13;
+
+Given path mainURl,myId ................................................... skipped
+* header Authorization = 'Bearer '+authToken .............................. skipped
+When method get ........................................................... skipped
+Then status 200 ........................................................... skipped</failure>
+  </testcase>
+</testsuite>

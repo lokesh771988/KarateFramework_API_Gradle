@@ -1,0 +1,124 @@
+19:25:10.822 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - assertion failed: path: $[*].name[*], actual: ["Harinarayan Sinha"], expected: 108, reason: actual value does not contain expected
+19:25:10.873 [ForkJoinPool-1-worker-6] ERROR com.intuit.karate - assertion failed: assert evaluated to false: responseStatus == 201
+19:25:10.888 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - this thread waited 3642 milliseconds for callonce lock: read('classpath:com/demo/features/createUser.feature')
+19:25:11.211 [ForkJoinPool-1-worker-6] ERROR com.intuit.karate - status code was: 404, expected: 200, response time: 86, url: https://gorest.co.in/public/v2/users/801, response: {"message":"Resource not found"}
+19:32:20.467 [Test worker] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+19:32:20.776 [ForkJoinPool-1-worker-4] INFO  com.intuit.karate - baseURl:  
+19:32:20.776 [ForkJoinPool-1-worker-2] INFO  com.intuit.karate - baseURl:  
+19:32:20.776 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - baseURl:  
+19:32:20.776 [ForkJoinPool-1-worker-6] INFO  com.intuit.karate - baseURl:  
+19:32:20.776 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - baseURl:  
+19:32:20.776 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - baseURl:  
+19:32:20.962 [ForkJoinPool-1-worker-4] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:com/demo/features/createUser.feature')
+19:32:21.015 [ForkJoinPool-1-worker-6] INFO  com.intuit.karate - [print] My ID ::: 108
+19:32:21.037 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 2022/07/20
+19:32:21.051 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - baseURl:  
+19:32:21.195 [pool-1-thread-2] INFO  com.intuit.karate.Runner - <<pass>> feature 2 of 13: classpath:com/demo/features/commanFuncation.feature
+19:32:23.893 [ForkJoinPool-1-worker-6] ERROR com.intuit.karate - assertion failed: path: $[*].name[*], actual: ["Harinarayan Sinha"], expected: 108, reason: actual value does not contain expected
+19:32:23.941 [pool-1-thread-5] INFO  com.intuit.karate.Runner - <<fail>> feature 5 of 13: classpath:com/demo/features/DataDrivenFeature.feature
+19:32:23.959 [pool-1-thread-6] INFO  com.intuit.karate.Runner - <<pass>> feature 6 of 13: classpath:com/demo/features/deleteUser.feature
+19:32:23.963 [ForkJoinPool-1-worker-2] ERROR com.intuit.karate - assertion failed: assert evaluated to false: responseStatus == 201
+19:32:23.965 [ForkJoinPool-1-worker-6] INFO  com.intuit.karate - baseURl:  
+19:32:23.989 [ForkJoinPool-1-worker-4] INFO  com.intuit.karate - << lock released, cached callonce: read('classpath:com/demo/features/createUser.feature')
+19:32:23.990 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - this thread waited 3023 milliseconds for callonce lock: read('classpath:com/demo/features/createUser.feature')
+19:32:23.995 [pool-1-thread-4] INFO  com.intuit.karate.Runner - <<fail>> feature 4 of 13: classpath:com/demo/features/createUser.feature
+19:32:23.997 [ForkJoinPool-1-worker-2] INFO  com.intuit.karate - baseURl:  
+19:32:24.011 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - baseURl:  
+19:32:24.029 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print]
+19:32:24.048 [pool-1-thread-6] INFO  com.intuit.karate.Runner - <<fail>> feature 9 of 13: classpath:com/demo/features/getUserDetails.feature
+19:32:24.059 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - baseURl:  
+19:32:24.088 [ForkJoinPool-1-worker-2] INFO  com.intuit.karate - baseURl:  
+19:32:24.099 [pool-1-thread-5] INFO  com.intuit.karate.Runner - <<pass>> feature 8 of 13: classpath:com/demo/features/getAllUserDeatils.feature
+19:32:24.111 [pool-1-thread-4] INFO  com.intuit.karate.Runner - <<pass>> feature 10 of 13: classpath:com/demo/features/JavaCall.feature
+19:32:24.129 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - baseURl:  
+19:32:24.143 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - baseURl:  
+19:32:24.144 [pool-1-thread-6] INFO  com.intuit.karate.Runner - <<pass>> feature 11 of 13: classpath:com/demo/features/javaFuncationCall.feature
+19:32:24.191 [pool-1-thread-3] INFO  com.intuit.karate.Runner - <<pass>> feature 3 of 13: classpath:com/demo/features/conditionallloop.feature
+19:32:24.209 [pool-1-thread-2] INFO  com.intuit.karate.Runner - <<pass>> feature 7 of 13: classpath:com/demo/features/fileUpload.feature
+19:32:24.246 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 13: classpath:com/demo/features/CallingOtherFeature.feature
+19:32:24.249 [pool-1-thread-5] INFO  com.intuit.karate.Runner - <<pass>> feature 12 of 13: classpath:com/demo/features/ScenarioOutline.feature
+19:32:24.270 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - status code was: 404, expected: 200, response time: 102, url: https://gorest.co.in/public/v2/users/801, response: {"message":"Resource not found"}
+19:32:24.288 [pool-1-thread-4] INFO  com.intuit.karate.Runner - <<fail>> feature 13 of 13: classpath:com/demo/features/updateUser.feature
+19:33:26.436 [Test worker] INFO  com.intuit.karate - baseURl:  
+23:13:35.160 [Test worker] INFO  com.intuit.karate - baseURl:  
+23:22:43.937 [Test worker] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+23:22:44.270 [ForkJoinPool-1-worker-6] INFO  com.intuit.karate - baseURl:  
+23:22:44.270 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - baseURl:  
+23:22:44.270 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - baseURl:  
+23:22:44.270 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - baseURl:  
+23:22:44.270 [ForkJoinPool-1-worker-2] INFO  com.intuit.karate - baseURl:  
+23:22:44.270 [ForkJoinPool-1-worker-4] INFO  com.intuit.karate - baseURl:  
+23:22:44.485 [ForkJoinPool-1-worker-2] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:com/demo/features/createUser.feature')
+23:22:44.507 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] My ID ::: 108
+23:22:44.556 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] 2022/07/20
+23:22:44.581 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - baseURl:  
+23:22:44.719 [pool-1-thread-2] INFO  com.intuit.karate.Runner - <<pass>> feature 2 of 13: classpath:com/demo/features/commanFuncation.feature
+23:22:47.479 [ForkJoinPool-1-worker-2] INFO  com.intuit.karate - << lock released, cached callonce: read('classpath:com/demo/features/createUser.feature')
+23:22:47.481 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - this thread waited 2885 milliseconds for callonce lock: read('classpath:com/demo/features/createUser.feature')
+23:22:47.486 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - assertion failed: path: $[*].name[*], actual: ["Harinarayan Sinha"], expected: 108, reason: actual value does not contain expected
+23:22:47.500 [pool-1-thread-4] INFO  com.intuit.karate.Runner - <<pass>> feature 4 of 13: classpath:com/demo/features/createUser.feature
+23:22:47.504 [ForkJoinPool-1-worker-6] INFO  com.intuit.karate - baseURl:  
+23:22:47.539 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - baseURl:  
+23:22:47.552 [pool-1-thread-6] INFO  com.intuit.karate.Runner - <<pass>> feature 6 of 13: classpath:com/demo/features/deleteUser.feature
+23:22:47.571 [pool-1-thread-5] INFO  com.intuit.karate.Runner - <<fail>> feature 5 of 13: classpath:com/demo/features/DataDrivenFeature.feature
+23:22:47.580 [ForkJoinPool-1-worker-4] INFO  com.intuit.karate - baseURl:  
+23:22:47.597 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - baseURl:  
+23:22:47.599 [pool-1-thread-3] INFO  com.intuit.karate.Runner - <<pass>> feature 3 of 13: classpath:com/demo/features/conditionallloop.feature
+23:22:47.616 [ForkJoinPool-1-worker-4] INFO  com.intuit.karate - [print]
+23:22:47.642 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - baseURl:  
+23:22:47.647 [pool-1-thread-5] INFO  com.intuit.karate.Runner - <<pass>> feature 10 of 13: classpath:com/demo/features/JavaCall.feature
+23:22:47.689 [ForkJoinPool-1-worker-4] INFO  com.intuit.karate - baseURl:  
+23:22:47.696 [pool-1-thread-4] INFO  com.intuit.karate.Runner - <<pass>> feature 8 of 13: classpath:com/demo/features/getAllUserDeatils.feature
+23:22:47.702 [pool-1-thread-6] INFO  com.intuit.karate.Runner - <<fail>> feature 9 of 13: classpath:com/demo/features/getUserDetails.feature
+23:22:47.764 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 13: classpath:com/demo/features/CallingOtherFeature.feature
+23:22:47.796 [ForkJoinPool-1-worker-2] INFO  com.intuit.karate - baseURl:  
+23:22:47.949 [pool-1-thread-5] INFO  com.intuit.karate.Runner - <<pass>> feature 12 of 13: classpath:com/demo/features/ScenarioOutline.feature
+23:22:47.949 [pool-1-thread-3] INFO  com.intuit.karate.Runner - <<pass>> feature 11 of 13: classpath:com/demo/features/javaFuncationCall.feature
+23:22:47.953 [pool-1-thread-2] INFO  com.intuit.karate.Runner - <<pass>> feature 7 of 13: classpath:com/demo/features/fileUpload.feature
+23:22:47.977 [ForkJoinPool-1-worker-2] ERROR com.intuit.karate - status code was: 404, expected: 200, response time: 98, url: https://gorest.co.in/public/v2/users/801, response: {"message":"Resource not found"}
+23:22:47.989 [pool-1-thread-4] INFO  com.intuit.karate.Runner - <<fail>> feature 13 of 13: classpath:com/demo/features/updateUser.feature
+23:28:27.080 [Test worker] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+23:28:27.422 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - baseURl:  
+23:28:27.423 [ForkJoinPool-1-worker-2] INFO  com.intuit.karate - baseURl:  
+23:28:27.422 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - baseURl:  
+23:28:27.422 [ForkJoinPool-1-worker-6] INFO  com.intuit.karate - baseURl:  
+23:28:27.422 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - baseURl:  
+23:28:27.422 [ForkJoinPool-1-worker-4] INFO  com.intuit.karate - baseURl:  
+23:28:27.624 [ForkJoinPool-1-worker-4] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:com/demo/features/createUser.feature')
+23:28:27.664 [ForkJoinPool-1-worker-2] INFO  com.intuit.karate - [print] 2022/07/20
+23:28:27.678 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] My ID ::: 108
+23:28:27.686 [ForkJoinPool-1-worker-2] INFO  com.intuit.karate - baseURl:  
+23:28:27.877 [pool-1-thread-2] INFO  com.intuit.karate.Runner - <<pass>> feature 2 of 13: classpath:com/demo/features/commanFuncation.feature
+23:28:30.556 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - assertion failed: path: $[*].name[*], actual: ["Harinarayan Sinha"], expected: 108, reason: actual value does not contain expected
+23:28:30.577 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - baseURl:  
+23:28:30.588 [ForkJoinPool-1-worker-4] INFO  com.intuit.karate - << lock released, cached callonce: read('classpath:com/demo/features/createUser.feature')
+23:28:30.589 [ForkJoinPool-1-worker-2] WARN  com.intuit.karate - this thread waited 2894 milliseconds for callonce lock: read('classpath:com/demo/features/createUser.feature')
+23:28:30.608 [pool-1-thread-5] INFO  com.intuit.karate.Runner - <<fail>> feature 5 of 13: classpath:com/demo/features/DataDrivenFeature.feature
+23:28:30.622 [pool-1-thread-4] INFO  com.intuit.karate.Runner - <<pass>> feature 4 of 13: classpath:com/demo/features/createUser.feature
+23:28:30.640 [ForkJoinPool-1-worker-6] INFO  com.intuit.karate - baseURl:  
+23:28:30.656 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - baseURl:  
+23:28:30.660 [pool-1-thread-6] INFO  com.intuit.karate.Runner - <<pass>> feature 6 of 13: classpath:com/demo/features/deleteUser.feature
+23:28:30.670 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print]
+23:28:30.687 [pool-1-thread-4] INFO  com.intuit.karate.Runner - <<fail>> feature 9 of 13: classpath:com/demo/features/getUserDetails.feature
+23:28:30.689 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - baseURl:  
+23:28:30.700 [pool-1-thread-3] INFO  com.intuit.karate.Runner - <<pass>> feature 3 of 13: classpath:com/demo/features/conditionallloop.feature
+23:28:30.738 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - baseURl:  
+23:28:30.764 [pool-1-thread-6] INFO  com.intuit.karate.Runner - <<pass>> feature 10 of 13: classpath:com/demo/features/JavaCall.feature
+23:28:30.766 [ForkJoinPool-1-worker-4] INFO  com.intuit.karate - baseURl:  
+23:28:30.804 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - baseURl:  
+23:28:30.821 [pool-1-thread-2] INFO  com.intuit.karate.Runner - <<pass>> feature 7 of 13: classpath:com/demo/features/fileUpload.feature
+23:28:30.879 [pool-1-thread-5] INFO  com.intuit.karate.Runner - <<pass>> feature 8 of 13: classpath:com/demo/features/getAllUserDeatils.feature
+23:28:30.907 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 13: classpath:com/demo/features/CallingOtherFeature.feature
+23:28:30.993 [pool-1-thread-4] INFO  com.intuit.karate.Runner - <<pass>> feature 11 of 13: classpath:com/demo/features/javaFuncationCall.feature
+23:28:31.011 [pool-1-thread-3] INFO  com.intuit.karate.Runner - <<pass>> feature 12 of 13: classpath:com/demo/features/ScenarioOutline.feature
+23:28:31.040 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - status code was: 404, expected: 200, response time: 122, url: https://gorest.co.in/public/v2/users/801, response: {"message":"Resource not found"}
+23:28:31.059 [pool-1-thread-6] INFO  com.intuit.karate.Runner - <<fail>> feature 13 of 13: classpath:com/demo/features/updateUser.feature
+13:57:10.626 [Test worker] INFO  com.intuit.karate - baseURl:  
+17:43:23.403 [Test worker] INFO  com.intuit.karate - baseURl:  
+17:43:23.668 [Test worker] INFO  com.intuit.karate - [print]
+17:45:41.682 [Test worker] INFO  com.intuit.karate - baseURl:  
+17:46:49.492 [Test worker] INFO  com.intuit.karate - baseURl:  
+17:46:51.005 [Test worker] INFO  com.intuit.karate - [print] {
+"name":"Lokesh"
+"address":"Bangalore"
+}

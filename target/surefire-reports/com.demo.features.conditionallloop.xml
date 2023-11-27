@@ -1,0 +1,14 @@
+<testsuite failures="0" name="com/demo/features/conditionallloop.feature" skipped="0" tests="1" time="3.088904">
+  <testcase classname="com.demo.features.conditionallloop" name="create user and then get the first user by id" time="3.088904">
+    <system-out>* url baseURl ............................................................. passed
+Given path mainURl ........................................................ passed
+* param page = '1' ........................................................ passed
+* def multiP = { page:'1',name:'lokesh'} .................................. passed
+* params multiP ........................................................... passed
+* def headValues = { Content-Type: 'application/json' } ................... passed
+* headers headValues ...................................................... passed
+When method get ........................................................... passed
+Then assert responseStatus == 200 ......................................... passed
+* if (responseStatus == 200) karate.call('getAllUserDeatils.feature') ..... passed</system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<OwnerShip xmlns="http://www.hp.com/schemas/imaging/con/cloud/eprintercentre/2009/12/20">
+    <Owner><Username>{{user_ID}}</Username></Owner>
+    <Printer>
+        <PrinterEmailAddress><EmailAddress>{{printerEmailId}}</EmailAddress></PrinterEmailAddress>
+        <PrinterCloudConfiguration><ProtectionMode>true</ProtectionMode></PrinterCloudConfiguration>
+        <instantInkCapability>0</instantInkCapability>
+        <ezSampler>0</ezSampler>
+    </Printer>
+    <relationshipType>OwnDevice</relationshipType>
+    <nickName>{{nick_Name}}</nickName>
+    <Link name="" href=""/>
+</OwnerShip>

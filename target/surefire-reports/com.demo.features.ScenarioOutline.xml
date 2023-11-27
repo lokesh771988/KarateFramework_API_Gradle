@@ -1,0 +1,9 @@
+<testsuite failures="0" name="com/demo/features/ScenarioOutline.feature" skipped="0" tests="1" time="0.220134">
+  <testcase classname="com.demo.features.ScenarioOutline" name="given circuit name, validate country" time="0.220134">
+    <system-out>* url 'https://gorest.co.in' .............................................. passed
+Given path '/public/v2/users',id .......................................... passed
+* header Authorization = 'Bearer '+authToken .............................. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed</system-out>
+  </testcase>
+</testsuite>

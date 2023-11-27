@@ -1,0 +1,7 @@
+<testsuite failures="0" name="com/demo/features/JavaCall.feature" skipped="0" tests="1" time="0.045357">
+  <testcase classname="com.demo.features.JavaCall" name="create user and then get the first user by id" time="0.045357">
+    <system-out>* def doWork = ............................................................ passed
+* def result = call doWork 'world' ........................................ passed
+* match result == { someKey: 'hello world' } .............................. passed</system-out>
+  </testcase>
+</testsuite>

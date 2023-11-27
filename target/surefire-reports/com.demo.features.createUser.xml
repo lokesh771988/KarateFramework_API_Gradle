@@ -1,0 +1,21 @@
+<testsuite failures="0" name="com/demo/features/createUser.feature" skipped="0" tests="1" time="3.004045">
+  <testcase classname="com.demo.features.createUser" name="create user and then get the first user by id" time="3.004045">
+    <system-out>* url baseURl ............................................................. passed
+* def jsonFiles = Java.type('com.demo.utill.UntillMethods') ............... passed
+* def now = function(){ return java.lang.System.currentTimeMillis() } ..... passed
+Given path mainURl ........................................................ passed
+* def json = jsonFiles.jsonFile("CreateUser.js") .......................... passed
+* def name = 'Test-' + now() .............................................. passed
+* replace json.userName = name ............................................ passed
+And request json .......................................................... passed
+* def headValues = { Authorization: 'Bearer 7232803c821bc49a0bd5c56d7df39c5289168e323fb17c5b6b1597d8941e33ef', Content-Type: 'application/json' } . passed
+* headers headValues ...................................................... passed
+When method post .......................................................... passed
+Then assert responseStatus == 201 ......................................... passed
+And match response.name == name ........................................... passed
+And match response.gender == "male" ....................................... passed
+And match response.status == "active" ..................................... passed
+And match response.email == name+"@15ce.com" .............................. passed
+And def userID = response.id .............................................. passed</system-out>
+  </testcase>
+</testsuite>
